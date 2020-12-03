@@ -1,0 +1,27 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    &__title{
+        color:  #006faa;
+    }
+    button{
+        margin-top: 35px;
+        padding: 15px 40px;
+        font-weight: bold;
+        color: white;
+        background-color: #1089c9;
+        border-radius: 5px;
+        border: 1px white solid;
+        cursor: pointer;
+        &:active {
+            box-shadow: 0 1px #666;
+            transform: translateY(4px);
+        }
+        &:hover {
+            background-color:   #3797ca;
+          }
+    }
+}
