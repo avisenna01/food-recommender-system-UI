@@ -10,8 +10,12 @@
         width: 100%;
         margin-top: 25px;
         img{
-            width: 25%;
-            height: 25%
+            width: 13%;
+            height: 13%;
+            @media only screen and (max-width: 600px){
+                width: 25%;
+                height: 25%
+            }
         }
     }
     h1{
@@ -30,9 +34,16 @@
         text-align: left;
         justify-content: center;
         display: flex;
+        @media only screen and (max-width: 600px){
+            font-size: 15px;
+            flex-direction: column;
+        }
         div{
             h1{
                 color:  #1b9ee4
+            }
+            h3,h4{
+                color: #006faa;
             }
             // p{
             //     &:nth-child(2), &:nth-child(4){
