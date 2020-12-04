@@ -12,6 +12,7 @@ const Formingredients = () => {
     const [ingred5, setIngred5] = useState(null)
     const [ingred6, setIngred6] = useState(null)
     const [ingred7, setIngred7] = useState(null)
+    const [ingred8, setIngred8] = useState(null)
 
     const ing1 = (e) => {
         setIngred1(e.target.value)
@@ -38,6 +39,10 @@ const Formingredients = () => {
     }
     const ing7 = (e) => {
         setIngred7(e.target.value)
+
+    }
+    const ing8 = (e) => {
+        setIngred8(e.target.value)
 
     }
 
@@ -75,6 +80,12 @@ const Formingredients = () => {
                         Ingredient 7
                 </label>
                     <input type="text" placeholder="Ingredient 7" onChange={ing7}></input>
+                    <label >
+                        Ingredient 8
+                </label>
+                    <input type="text" placeholder="Ingredient 8" onChange={ing8}></input>
+
+
                 </form>
 
             </div>

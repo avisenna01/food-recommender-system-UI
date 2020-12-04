@@ -10,7 +10,7 @@ const Formingredients = () => {
             <div className={style.logo__container}><img alt="logo" src={logo}></img></div>
             <h1>Here is the result! Enjoy...</h1>
             <div className={style.result__container}>
-                <div>
+                {/* <div>
                     <h1>Ayam Woku Manado</h1>
                     <p>Bahan-bahan:</p>
                     <p>1 Ekor Ayam Kampung (potong 12)--2 Buah Jeruk Nipis--2 Sdm Garam--3 Ruas Kunyit--7 Bawang Merah--7 Bawang Putih--10 Cabe Merah--10 Cabe Rawit Merah (sesuai selera)--3 Butir Kemiri--2 Batang Sereh--2 Lembar Daun Salam--2 Ikat Daun Kemangi--Penyedap Rasa--1 1/2 Gelas Air--</p>
@@ -50,6 +50,76 @@ const Formingredients = () => {
                     <p>1 kg daging sapi--4 butir kelapa untuk 2L santan kental--Bumbu dihaluskan :--200 gram Cabe merah--1/2 cm Jahe--2 sdm ketumbar sangrai--10 butir kapulaga--10 butir cengkeh--2 butir bunga lawang--1 buah biji pala--13 butir bawang merah--7 butir bawang putih--25 buah cabe rawit (jika suka pedas)--3 cm lengkuas dipipihkan--2 buah serai dipipihkan--3 lembar daun jeruk--3 lembar daun salam--2 lembar daun kunyit--1/2 sdm garam (tambahkan jika kurang asin)--1 sdt kaldu bubuk (optional)--</p>
                     <p>Cara memasak:</p>
                     <p>Potong daging berlawanan dari seratnya--Peras santan dari 4 butir kelapa tua menjadi 2 liter--Haluskan bumbu--Tuang santan dan bumbu ke dalam wajan anti lengket, masak hingga mendidih--Kemudian masukkan daging, garam dan kaldu. Masak dengan api kecil sambil sesekali di aduk agar tidak gosong--Sampai tahap ini dinamakan kalio, teruskan memasak hingga daging mulai mengering dan kehitaman--Rendang siap dinikmati--</p>
+                </div> */}
+                <div>
+                    <h3>Rekomendasi 1:</h3>
+                    <h1>Bola-Bola Kornet Sapi</h1>
+                    <h4>Bahan makanan:</h4>
+                    <ul>
+                        <li>Tepung Bakwan</li>
+                        <li>Minyak</li>
+                        <li>Sapi</li>
+                    </ul>
+                    <h4>Bahan dasar:</h4>
+                    <p>Sapi</p>
+                    <h4>Langkah-langkah:</h4>
+                    <ol>
+                        <li>Campur satu kaleng kornet dengan tepung setengahnya aduk rata..</li>
+                        <li>Bentuk bola-bola goreng sampai berubah warna.. jangan terlalu lama... sajikan</li>
+                    </ol>
+                </div>
+
+                <div>
+                    <h3>Rekomendasi 2:</h3>
+                    <h1>Ikan Kembung Bakar Teflon</h1>
+                    <h4>Bahan makanan:</h4>
+                    <ul>
+                        <li>Garam</li>
+                        <li>Jeruk</li>
+                        <li>Ketumbar Bubuk</li>
+                        <li>Ikan Kembung Sate</li>
+                        <li>Lada</li>
+                    </ul>
+                    <h4>Bahan dasar:</h4>
+                    <p>Ikan</p>
+                    <h4>Langkah-langkah:</h4>
+                    <ol>
+                        <li>Kucuri ikan dengan jeruk, diamkan 5 menit</li>
+                        <li>Lumuri ikan dg garam, lada dan ketumbar bubuk, simpan d kulkas sekitar 30 menit</li>
+                        <li>Bakar d atas teflon yg d olesi mentega/ butter tipis dengan api yg kecil</li>
+                        <li>Balik untuk membakar kedua bagian ikan.</li>
+                        <li>Sajikan dengan cocolan sambal kecap</li>
+                    </ol>
+                </div>
+
+                <div>
+                    <h3>Rekomendasi 3:</h3>
+                    <h1>Asem Asem Balungan</h1>
+                    <h4>Bahan makanan:</h4>
+                    <ul>
+                        <li>Garam</li>
+                        <li>Serai</li>
+                        <li>  Air</li>
+                        <li> Lengkuas</li>
+                        <li> Belimbing Wulu</li>
+                        <li> Lombok Merah</li>
+                        <li> Daun Salam</li>
+                        <li> Bawang Putih </li>
+                        <li> Cabe Hijau</li>
+                        <li> Kambing</li>
+
+                    </ul>
+                    <h4>Bahan dasar:</h4>
+                    <p>Kambing</p>
+                    <h4>Langkah-langkah:</h4>
+                    <ol>
+                        <li>Iris tipis semua bumbu.</li>
+                        <li>Cuci bersih tulang, rebus dengan 2lt air, lengkuas,serai, daun salam dan garam.
+</li>
+                        <li>Setelah mendidih masukan bumbu iris, koreksi rasa dan tunggu hingga empuk..
+</li>
+                        <li>Sajikan</li>
+                    </ol>
                 </div>
 
             </div>
